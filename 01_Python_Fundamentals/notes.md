@@ -131,3 +131,55 @@ valid, invalid = validate_employees(employees)
 
 # instead of this:
 # logger.info(f"Loaded {len(employees)} records")
+
+
+
+# Tests
+
+# Run All Tests
+python -m pytest -v
+
+# Run All Tests in One File
+python -m pytest tests/test_file_operations.py -v
+
+# Run One Specific Test Function
+python -m pytest tests/test_file_operations.py::test_write_csv -v
+
+# Run One specific parameterized test case
+python -m pytest "tests/test_employee_validation_parameterized.py::test_invalid_salary_values[negative-integer]" -v
+
+# Run Tests matching a keyword (-k) - you can use and, or, not in these commands
+python -m pytest -k "salary and not negative" -v
+
+# Run multiple specific test files
+python -m pytest tests/test_file_operations.py tests/test_exceptions.py -v
+
+# Stop testing after the first failure
+python -m pytest -x -v
+
+# Rerun only tests that failed previously
+python -m pytest --lf -v
+
+
+GIT commands while inside the pager:
+| Key | Action |
+|---|---|
+| `Q` | Quit and return to PowerShell |
+| `Space` | Move forward one page |
+| `B` | Move backward one page |
+| `↑` / `↓` | Scroll one line |
+| `/text` | Search for text |
+
+prevent git from opening the pager
+git --no-pager diff --cached --stat
+
+
+common commit message conventions:
+| Prefix | Purpose |
+|---|---|
+| `feat:` | New functionality |
+| `fix:` | Bug fix |
+| `docs:` | Documentation changes |
+| `test:` | Adding or modifying tests |
+| `refactor:` | Code restructuring without changing behavior |
+| `chore:` | Maintenance tasks |
