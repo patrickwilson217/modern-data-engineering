@@ -1,4 +1,25 @@
 def validate_employees(employees_list):
+    """
+     Validate employee salary data and separate valid and invalid records.
+
+    Validation rules:
+        - Salary must exist and cannot be None.
+        - Boolean salaries are rejected.
+        - Numeric strings are converted to integers.
+        - Negative salaries are rejected.
+        - NaN and infinite values are rejected.
+        - Invalid records receive an error description.
+
+    Args:
+        employees_list (list[dict]): Employee records to validate.
+
+    Returns:
+        tuple[list[dict], list[dict]]:
+            A tuple containing valid and invalid employee records.
+
+    Notes:
+        Input dictionaries are not modified.
+    """
     valid_employees = []
     invalid_employees = []
 
