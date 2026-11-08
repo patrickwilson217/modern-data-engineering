@@ -1,0 +1,12 @@
+id,name,department,salary
+101,John Smith,IT,95000
+102,Jane Doe,Finance,87000
+103,Bob Johnson,IT,
+104,Sarah Williams,HR,78000
+105,Mike Davis,IT,92000
+106,Tom Brown,IT,
+107,Lisa White,IT,-5000
+108,Chris Green,IT,110000
+109,Test Employee,IT,True
+110,Another Employee,IT,not available
+111,Negative String,IT,-25000
