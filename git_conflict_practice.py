@@ -1,5 +1,5 @@
 def configure_logging():
-    log_level ="DEBUG"
+    log_level ="WARNING"
     print(f"Logging level: {log_level}")
 
 if __name__ == "__main__":
