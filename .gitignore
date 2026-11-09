@@ -1,3 +1,9 @@
+# Personal learning and scratch files
+**/notes.md
+**/scratch.py
+**/hello.py
+**/logging_practice.py
+
 # Python virtual environments
 .venv/
 venv/
