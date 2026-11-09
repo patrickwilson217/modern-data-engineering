@@ -4,6 +4,9 @@
 **/hello.py
 **/logging_practice.py
 
+# Earlier ETL implementation
+01_Python_Fundamentals/exercise_04/exercise_04.py
+
 # Python virtual environments
 .venv/
 venv/
