@@ -69,7 +69,7 @@ def test_verify_json_success(tmp_path):
     data = [{"id": 1, "name": "John Doe"}, {"id": 2, "name": "Jane Smith"}]
 
     # write the data to the JSON file
-    employee_records = write_json(file_path, data)
+    write_json(file_path, data)
 
     # assert that verify_json returns true
     assert verify_json(file_path, data) is True
