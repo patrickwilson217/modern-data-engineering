@@ -15,6 +15,7 @@ venv/
 __pycache__/
 *.py[cod]
 .pytest_cache/
+*.pyc
 
 #Test coverage reports
 .coverage
@@ -25,7 +26,7 @@ htmlcov/
 logs/
 
 # Generated ETL output
-output/
+**/output/
 
 # Environment varialbes and secrets
 .env
@@ -38,3 +39,9 @@ output/
 # Operating system files
 .DS_Store
 Thumbs.db
+
+# Spark temporary files
+*.sparkStaging/
+metastore_db/
+derby.log
+
