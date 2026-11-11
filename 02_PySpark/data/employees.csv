@@ -1,0 +1,17 @@
+employee_id,name,department,salary
+101,Alice,Engineering,95000
+102,Bob,Sales,72000
+103,Charlie,Engineering,110000
+104,Diana,HR,68000
+105,Ethan,Sales,
+106,Fiona,Engineering,-5000
+107,George,HR,82000
+108,Hannah,Sales,invalid
+109,Ian,Engineering,125000
+110,Julia,,78000
+111,Kevin,Finance,92000
+112,Laura,Finance,105000
+113,Mike,Engineering,85000.75
+114,Nina,Sales,0
+115,Oscar,Finance,3000000000
+116,Paula,HR,Infinity
